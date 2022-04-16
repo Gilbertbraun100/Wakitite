@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+   background-color: #121212;
+   font-family: 'Poppins', sans-serif;
+   /* font-family: 'Inconsolata', monospace; */
+   color: #ffffff;
+}
+select {
+   background-color: #ffffff;
+}
+#generator {
+   
+}
+.bvleft {
+	padding-right: 0;
+}
+.bvright {
+	padding-left: 0;
+}
+.btn-block {
+   width: 100%;
+   outline-color: #ffffff;
+}
+.btn-block:hover {
+   background-color: #121212;
+   color: #ffffff;
+}
+.card {
+   border-color: #ffffff;
+   background-color: #121212;
+}
+.card-header, .card-footer {
+   border-color: #ffffff;
+   background-color: #121212;
+}
+#cards {
+   background-color: #121212;
+   color:#ffffff;
+   justify-content: center;
+   font-family: 'Roboto Mono', monospace;
+   text-align: center;
+}
+#gates {
+   background-color: #121212;
+   color:#ffffff;
+   text-align: center;
+}
+.btn-block:focus {
+  outline: none;
+  box-shadow: none;
+}
+#cvv, #amount, #bin, #month, #year {
+   background-color: #121212;
+   color:#ffffff;
+}
+#check {
+   padding-right: 0;
+}
+img {
+    width: 60%; 
+    max-width: 60%; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+}
+.spcvv {
+   float: left;
+}
+.spccn {
+   text-align: center;
+}
+.spdead {
+   float: right;
+}
+.text-center {
+   text-align: center;
+}
+#counter {
+   font-size: 80%;
+}
+.btn-outline-light:hover {
+   background-color: #121212;
+   color: #ffffff;
+}
+#cvvbtn, #ccnbtn, #deadbtn, #cvvcbtn, #ccncbtn, #deadcbtn {
+   float: right;
+   font-family: 'Roboto Mono', monospace;
+   margin-right: 5px;
+}
+#cvvdiv, #ccndiv, #deaddiv {
+   font-family: 'Roboto Mono', monospace;
+   font-size: 95%;
+}
+.badge-outline {
+    color: white;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+}

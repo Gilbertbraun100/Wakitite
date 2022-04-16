@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+   background-color: #121212;
+   font-family: 'Poppins', sans-serif;
+   /* font-family: 'Inconsolata', monospace; */
+   color: #ffffff;
+}
+textarea {
+   resize: none;
+}
+.block {
+   width: 100%;
+}
+.black-vatican, .black-vatican:hover, .black-vatican:active, .black-vatican:focus {
+   border-color: #ffffff;
+   background-color: #121212;
+   color: #ffffff;
+}
+.card {
+   background-color: #121212;
+   box-shadow: 0 0 5px #ffffff;
+   border-color: #ffffff;
+   background-color: #121212;
+}
+#cards {
+   background-color: #121212;
+   color:#ffffff;
+   justify-content: center;
+   font-family: 'Roboto Mono', monospace;
+   text-align: center;
+   font-size: .9em;
+}
+img {
+    width: 60%; 
+    max-width: 60%; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+}
+#counter {
+   font-size: 80%;
+}
+.btn-outline-light, .btn-outline-light:hover {
+   background-color: #121212;
+   color: #ffffff;
+   border: 1px solid #ffffff;
+}
+#cvv-show-btn, #ccn-show-btn, #dead-show-btn {
+   font-family: 'Roboto Mono', monospace;
+}
+#cvv-clear-btn, #ccn-clear-btn, #dead-clear-btn {
+   font-family: 'Roboto Mono', monospace;
+   margin-right: 5px;
+}
+#cvv-div, #ccn-div, #dead-div {
+   font-family: 'Roboto Mono', monospace;
+   font-size: 80%;
+}
+.badge {
+   color: white;
+   border: 1px solid #ffffff;
+   background-color: transparent;
+   font-size: 90%;
+}
+.float-right {
+   float: right;
+}
